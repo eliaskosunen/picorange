@@ -33,7 +33,6 @@
 
 #define PICORANGE_COMPILER(major, minor, patch) \
     ((major)*10000000 /* 10,000,000 */ + (minor)*10000 /* 10,000 */ + (patch))
-#define PICORANGE_VERSION PICORANGE_COMPILER(0, 2, 0)
 
 #ifdef __INTEL_COMPILER
 // Intel
